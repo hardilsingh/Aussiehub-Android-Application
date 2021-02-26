@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Aussie Hub",
+    "slug": "AussieApp",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./src/assets/logo.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "4",
+      "bundleIdentifier": "com.hardilsingh87.AussieApp"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "android": {
+      "package": "com.hardilsingh87.AussieApp",
+      "useNextNotificationsApi": true,
+      "versionCode": 6,
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyCWKd6fYAy5UdE1nNDtTXG_BOSEcbQYGyw"
+        }
+      }
+    }
+  }
+}
